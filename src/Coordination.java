@@ -23,7 +23,6 @@ public class Coordination implements CoordinationDAO{
         this.name = name;
     }
 
-
     public Coordination(double lat, double lon) {
         latitude = lat;
         longitude = lon;

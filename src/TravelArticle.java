@@ -11,7 +11,6 @@ public class TravelArticle implements TravelArticleDAO {
     private List<String> picUrl;
     private Date createDate;
 
-
     private static final DateTimeFormatter dtf = DateTimeFormatter
             .ofPattern("yyyy/MM/dd HH:mm:ss");
 
